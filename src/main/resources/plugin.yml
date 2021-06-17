@@ -1,0 +1,9 @@
+name: GithubBuildsDownloader
+version: ${project.version}
+main: io.github.seggan.githubbuildsdownloader.githubbuildsdownloader.GithubBuildsDownloader
+api-version: 1.15
+author: Seggan
+description: A plugin that downloads plugins hosted on https://thebusybiscuit.github.io/builds
+commands:
+  download:
+    usage: /download <author> <repo> [branch (default master)] [version (default latest)]
